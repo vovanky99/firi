@@ -1,0 +1,1364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="lib/font-awesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="lib/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="lib/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Firi - Movie Single Page</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="header">
+            <div class="top-header">
+                <div class="container">
+                    <div class="menu-container">
+                        <nav class="main-menu clearfix">
+                            <div class="site-logo">
+                                <div class="logo-image">
+                                    <h1>
+                                        <a class="logo-link" href="index.html">
+                                            <img src="img/logo.png" alt="logo image">
+                                        </a>
+                                    </h1>
+                                </div>
+                                <div class="toggle-menu">
+                                    <span class="toggle-menu-icon"><i class="fas fa-bars"></i></span>
+                                </div>
+                            </div>
+                            <div class="site-menu clearfix">
+                                <ul class="left-menu">
+                                    <li><a href="#">Home</a></li>
+                                    <li class="parent-menu"><a href="#">Movies</a>
+                                        <ul class="child-menu">
+                                            <li><a href="#">Movies 1</a></li>
+                                            <li><a href="#">Movies 1</a></li>
+                                            <li><a href="#">Movies 1</a></li>
+                                            <li><a href="#">Movies 1</a></li>
+                                            <li class="parent-menu"><a href="#">Movies 1</a>
+                                                <ul class="child-menu">
+                                                    <li><a href="#">Movies 1</a></li>
+                                                    <li><a href="#">Movies 1</a></li>
+                                                    <li><a href="#">Movies 1</a></li>
+                                                    <li><a href="#">Movies 1</a></li>
+                                                    <li><a href="#">Movies 1</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Celebrities</a></li>
+                                    <li><a href="#">News</a></li>
+                                    <li><a href="#">Reviews</a></li>
+                                </ul>
+                                <ul class="right-menu">
+                                    <li><a id="login-link" href="#">Login</a></li>
+                                    <li><a id="signup-link" class="signup-button" href="#">Sign Up</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="top-search">
+                        <div class="search-block clearfix">
+                            <select class="search-type">
+                                <option value="0">Movies</option>
+                                <option value="1">Celebrities</option>
+                                <option value="2">News</option>
+                                <option value="3">Reviews</option>
+                                <option value="4">All</option>
+                            </select>
+                            <input class="search-input" type="text" placeholder="Search somethings ...">
+                        </div>
+                        <div class="top-result clearfix">
+                            <div class="multi-result">
+                                <div class="result-col">
+                                    <p class="result-title">Movies</p>
+                                    <ul class="result-list">
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="result-col">
+                                    <p class="result-title">Celebrities</p>
+                                    <ul class="result-list">
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="result-col">
+                                    <p class="result-title">News</p>
+                                    <ul class="result-list">
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="result-col">
+                                    <p class="result-title">Reviews</p>
+                                    <p class="empty-result">No result found!</p>
+                                </div>
+                            </div>
+                            <div class="single-result">
+                                <div class="result-col">
+                                    <p class="result-title">Movies</p>
+                                    <ul class="result-list">
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Viet content o day-->
+        <div class="content">
+            <div class="container">
+                <div class="content-data clearfix">
+                    <div class="single-movie-poster">
+                        <div class="movie-poster-image">
+                            <img src="img/movie-single.jpg" alt="movie single poster">
+                        </div>
+                        <div class="movie-poster-button">
+                            <div class="poster-button-box">
+                                <a href="#" class="poster-button trailer-button">Watch Trailer</a>
+                            </div>
+                            <div class="poster-button-box">
+                                <a href="#" class="poster-button imdb-button">View on Imdb</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single-movie-detail">
+                        <h2 class="single-movie-title">Skyfall: Quantum of Spectre<span class="single-movie-year">2015</span></h2>
+                        <div class="share-block">
+                            <div class="single-movie-favorite">
+                                <a href="#" class="favorite-link"><span class="poster-button-icon"><i class="fas fa-heart"></i></span>Add to favorite</a>
+                            </div>
+                            <div class="single-movie-share">
+                                <div><a class="share-link"><span class="poster-button-icon"><i class="fas fa-share-alt"></i></span>Share</a></div>
+                                <div class="share-icon-block">
+                                    <a href="#"><i class="fab fa-facebook-f facebook-button"></i></a>
+                                    <a href="#"><i class="fab fa-twitter twitter-button"></i></a>
+                                    <a href="#"><i class="fab fa-instagram-square instagram-button"></i></a>
+                                    <a href="#"><i class="fab fa-pinterest pinterest-button"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rating-block">
+                            <div class="current-rating">
+                                <span class="rate-star-score"><i class="fas fa-star"></i></span>
+                                <div class="rating-score">
+                                    <span class="avg-rating">8.1<span class="max-rating">/10</span></span>
+                                    <span class="total-reviews">56 Reviews</span>
+                                </div>
+                            </div>
+                            <div class="rate-your-points">
+                                <span class="rate-this-movie">Rate this Movie:</span>
+                                <span class="rate-star">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <ul class="tab-nav">
+                            <li>
+                                <a href="#" tab-data="overview" class="tab-link active">Overview</a>
+                            </li>
+                            <li>
+                                <a href="#" tab-data="review" class="tab-link">Reviews</a>
+                            </li>
+                            <li>
+                                <a href="#" tab-data="cast" class="tab-link">Cast & Crew</a>
+                            </li>
+                            <li>
+                                <a href="#" tab-data="media" class="tab-link">Media</a>
+                            </li>
+                            <li>
+                                <a href="#" tab-data="related" class="tab-link">Related Movie</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div id="overview" class="clearfix">
+                                <div class="movie-profile">
+                                    <div class="profile-item">
+                                        <label class="profile-label">Director:</label>
+                                        <p class="profile-value">
+                                            <a href="#">Joss Whedon</a>
+                                        </p>
+                                    </div>
+                                    <div class="profile-item">
+                                        <label class="profile-label">Writer:</label>
+                                        <p class="profile-value">
+                                            <a href="#">Joss Whedon</a><a href="#">Stan Lee</a>
+                                        </p>
+                                    </div>
+                                    <div class="profile-item">
+                                        <label class="profile-label">Stars:</label>
+                                        <p class="profile-value">
+                                            <a href="#">Robert Downey Jr</a>
+                                            <a href="#">Chris Evans</a>
+                                            <a href="#">Tom Halland</a>
+                                        </p>
+                                    </div>
+                                    <div class="profile-item">
+                                        <label class="profile-label">Genres:</label>
+                                        <p class="profile-value">
+                                            <a href="#">Action</a>
+                                            <a href="#">Sci-Fi</a>
+                                            <a href="#">Adventure</a>
+                                        </p>
+                                    </div>
+                                    <div class="profile-item">
+                                        <label class="profile-label">Release Date:</label>
+                                        <p class="profile-value">May 1, 2015 (U.S.A)</p>
+                                    </div>
+                                    <div class="profile-item">
+                                        <label class="profile-label">Runtime:</label>
+                                        <p class="profile-value">141 min</p>
+                                    </div>
+                                    <div class="profile-item">
+                                        <label class="profile-label">MMPA Rating:</label>
+                                        <p class="profile-value">PG-13</p>
+                                    </div>
+                                </div>
+                                <div class="overview-detail">
+                                    <p class="single-movie-description">Tony Stark creates the Ultron Program to protect the world, but when the peacekeeping program becomes hostile, The Avengers go into action to try and defeat a virtually impossible enemy together. Earth's mightiest heroes
+                                        must come together once again to protect the world from global extinction.</p>
+                                    <div class="single-movie-item">
+                                        <h3 class="overview-title">Videos & Photos
+                                            <a href="#" class="overview-link">All 5 Videos & 245 Photos</a>
+                                        </h3>
+                                        <div class="movie-item">
+                                            <div class="media-item">
+                                                <a href="#" class="media-view"><img src="img/image1.jpg" alt="media item"></a>
+                                            </div>
+                                            <div class="media-item">
+                                                <a href="#" class="media-view"><img src="img/image1.jpg" alt="media item"></a>
+                                            </div>
+                                            <div class="media-item">
+                                                <a href="#" class="media-view"><img src="img/image1.jpg" alt="media item"></a>
+                                            </div>
+                                            <div class="media-item">
+                                                <a href="#" class="media-view"><img src="img/image1.jpg" alt="media item"></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="single-movie-item">
+                                        <h3 class="overview-title">Cast
+                                            <a href="#" class="overview-link">Full Cast & Review</a>
+                                        </h3>
+                                        <table class="cast-list">
+                                            <tr>
+                                                <td class="cast-info">
+                                                    <div class="cast-avatar">
+                                                        <a href="#"><img src="img/cast1.jpg" alt="cast avatar"></a>
+                                                    </div>
+                                                    <h4 class="cast-name">
+                                                        <a href="#">Robert Downey Jr.</a>
+                                                    </h4>
+                                                </td>
+                                                <td class="cast-role">
+                                                    <span>Robert Downey Jr.</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="cast-info">
+                                                    <div class="cast-avatar">
+                                                        <a href="#"><img src="img/cast1.jpg" alt="cast avatar"></a>
+                                                    </div>
+                                                    <h4 class="cast-name">
+                                                        <a href="#">Robert Downey Jr.</a>
+                                                    </h4>
+                                                </td>
+                                                <td class="cast-role">
+                                                    <span>Robert Downey Jr.</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="cast-info">
+                                                    <div class="cast-avatar">
+                                                        <a href="#"><img src="img/cast1.jpg" alt="cast avatar"></a>
+                                                    </div>
+                                                    <h4 class="cast-name">
+                                                        <a href="#">Robert Downey Jr.</a>
+                                                    </h4>
+                                                </td>
+                                                <td class="cast-role">
+                                                    <span>Robert Downey Jr.</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="cast-info">
+                                                    <div class="cast-avatar">
+                                                        <a href="#"><img src="img/cast1.jpg" alt="cast avatar"></a>
+                                                    </div>
+                                                    <h4 class="cast-name">
+                                                        <a href="#">Robert Downey Jr.</a>
+                                                    </h4>
+                                                </td>
+                                                <td class="cast-role">
+                                                    <span>Robert Downey Jr.</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="cast-info">
+                                                    <div class="cast-avatar">
+                                                        <a href="#"><img src="img/cast1.jpg" alt="cast avatar"></a>
+                                                    </div>
+                                                    <h4 class="cast-name">
+                                                        <a href="#">Robert Downey Jr.</a>
+                                                    </h4>
+                                                </td>
+                                                <td class="cast-role">
+                                                    <span>Robert Downey Jr.</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="cast-info">
+                                                    <div class="cast-avatar">
+                                                        <a href="#"><img src="img/cast1.jpg" alt="cast avatar"></a>
+                                                    </div>
+                                                    <h4 class="cast-name">
+                                                        <a href="#">Robert Downey Jr.</a>
+                                                    </h4>
+                                                </td>
+                                                <td class="cast-role">
+                                                    <span>Robert Downey Jr.</span>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="single-movie-item">
+                                        <h3 class="overview-title">User Reviews
+                                            <a href="#" class="overview-link">See All 56 Reviews</a>
+                                        </h3>
+                                        <div class="review-item">
+                                            <div class="review-header">
+                                                <div class="reviewer-avatar">
+                                                    <a href="#"><img src="img/userava1.jpg" alt="reviewer avatar"></a>
+                                                </div>
+                                                <div class="review-description">
+                                                    <h3 class="review-title">Best Marvel movie in my opinion</h3>
+                                                    <span class="review-score">
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="fas fa-star"></i>
+                                                        <i class="far fa-star"></i>
+                                                        <i class="far fa-star"></i>
+                                                    </span>
+                                                    <p class="review-detail">
+                                                        <span class="review-time">17 December 2016</span>
+                                                        <span> by </span>
+                                                        <a class="reviewer-name" href="#">hawaiipierson</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <p class="review-content">This is by far one of my favorite movies from the MCU. The introduction of new Characters both good and bad also makes the movie more exciting. giving the characters more of a back story can also help audiences
+                                                relate more to different characters better, and it connects a bond between the audience and actors or characters. Having seen the movie three times does not bother me here as it is as thrilling and exciting
+                                                every time I am watching it. In other words, the movie is by far better than previous movies (and I do love everything Marvel), the plotting is splendid (they really do out do themselves in each film, there
+                                                are no problems watching it more than once.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div id="review">
+                                <div class="review-block">
+                                    <form class="review-form">
+                                        <div class="form-group">
+                                            <label class="form-label">Your score:</label>
+                                            <span class="form-score">
+                                                <i class="far fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                                <i class="far fa-star"></i>
+                                            </span>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form-label">Review title:</label>
+                                            <input class="form-input" placeholder="Review title">
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="form-label">Your review:</label>
+                                            <textarea class="form-textarea" placeholder="Your review ..."></textarea>
+                                        </div>
+                                        <button class="form-button" type="submit">Review</button>
+                                    </form>
+                                </div>
+                                <div class="review-conent">
+                                    <div class="review-item">
+                                        <div class="review-header">
+                                            <div class="reviewer-avatar">
+                                                <a href="#"><img src="img/userava1.jpg" alt="reviewer avatar"></a>
+                                            </div>
+                                            <div class="review-description">
+                                                <h3 class="review-title">Best Marvel movie in my opinion</h3>
+                                                <span class="review-score">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </span>
+                                                <p class="review-detail">
+                                                    <span class="review-time">17 December 2016</span>
+                                                    <span> by </span>
+                                                    <a class="reviewer-name" href="#">hawaiipierson</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="review-content">
+                                            This is by far one of my favorite movies from the MCU. The introduction of new Characters both good and bad also makes the movie more exciting. giving the characters more of a back story can also help audiences relate more to different characters better,
+                                            and it connects a bond between the audience and actors or characters. Having seen the movie three times does not bother me here as it is as thrilling and exciting every time I am watching it. In other words,
+                                            the movie is by far better than previous movies (and I do love everything Marvel), the plotting is splendid (they really do out do themselves in each film, there are no problems watching it more than once.
+                                        </p>
+                                    </div>
+                                    <div class="review-item">
+                                        <div class="review-header">
+                                            <div class="reviewer-avatar">
+                                                <a href="#"><img src="img/userava1.jpg" alt="reviewer avatar"></a>
+                                            </div>
+                                            <div class="review-description">
+                                                <h3 class="review-title">Best Marvel movie in my opinion</h3>
+                                                <span class="review-score">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </span>
+                                                <p class="review-detail">
+                                                    <span class="review-time">17 December 2016</span>
+                                                    <span> by </span>
+                                                    <a class="reviewer-name" href="#">hawaiipierson</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="review-content">
+                                            This is by far one of my favorite movies from the MCU. The introduction of new Characters both good and bad also makes the movie more exciting. giving the characters more of a back story can also help audiences relate more to different characters better,
+                                            and it connects a bond between the audience and actors or characters. Having seen the movie three times does not bother me here as it is as thrilling and exciting every time I am watching it. In other words,
+                                            the movie is by far better than previous movies (and I do love everything Marvel), the plotting is splendid (they really do out do themselves in each film, there are no problems watching it more than once.
+                                        </p>
+                                    </div>
+                                    <div class="review-item">
+                                        <div class="review-header">
+                                            <div class="reviewer-avatar">
+                                                <a href="#"><img src="img/userava1.jpg" alt="reviewer avatar"></a>
+                                            </div>
+                                            <div class="review-description">
+                                                <h3 class="review-title">Best Marvel movie in my opinion</h3>
+                                                <span class="review-score">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </span>
+                                                <p class="review-detail">
+                                                    <span class="review-time">17 December 2016</span>
+                                                    <span> by </span>
+                                                    <a class="reviewer-name" href="#">hawaiipierson</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="review-content">
+                                            This is by far one of my favorite movies from the MCU. The introduction of new Characters both good and bad also makes the movie more exciting. giving the characters more of a back story can also help audiences relate more to different characters better,
+                                            and it connects a bond between the audience and actors or characters. Having seen the movie three times does not bother me here as it is as thrilling and exciting every time I am watching it. In other words,
+                                            the movie is by far better than previous movies (and I do love everything Marvel), the plotting is splendid (they really do out do themselves in each film, there are no problems watching it more than once.
+                                        </p>
+                                    </div>
+                                    <div class="review-item">
+                                        <div class="review-header">
+                                            <div class="reviewer-avatar">
+                                                <a href="#"><img src="img/userava1.jpg" alt="reviewer avatar"></a>
+                                            </div>
+                                            <div class="review-description">
+                                                <h3 class="review-title">Best Marvel movie in my opinion</h3>
+                                                <span class="review-score">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </span>
+                                                <p class="review-detail">
+                                                    <span class="review-time">17 December 2016</span>
+                                                    <span> by </span>
+                                                    <a class="reviewer-name" href="#">hawaiipierson</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="review-content">
+                                            This is by far one of my favorite movies from the MCU. The introduction of new Characters both good and bad also makes the movie more exciting. giving the characters more of a back story can also help audiences relate more to different characters better,
+                                            and it connects a bond between the audience and actors or characters. Having seen the movie three times does not bother me here as it is as thrilling and exciting every time I am watching it. In other words,
+                                            the movie is by far better than previous movies (and I do love everything Marvel), the plotting is splendid (they really do out do themselves in each film, there are no problems watching it more than once.
+                                        </p>
+                                    </div>
+                                    <div class="review-item">
+                                        <div class="review-header">
+                                            <div class="reviewer-avatar">
+                                                <a href="#"><img src="img/userava1.jpg" alt="reviewer avatar"></a>
+                                            </div>
+                                            <div class="review-description">
+                                                <h3 class="review-title">Best Marvel movie in my opinion</h3>
+                                                <span class="review-score">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </span>
+                                                <p class="review-detail">
+                                                    <span class="review-time">17 December 2016</span>
+                                                    <span> by </span>
+                                                    <a class="reviewer-name" href="#">hawaiipierson</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="review-content">
+                                            This is by far one of my favorite movies from the MCU. The introduction of new Characters both good and bad also makes the movie more exciting. giving the characters more of a back story can also help audiences relate more to different characters better,
+                                            and it connects a bond between the audience and actors or characters. Having seen the movie three times does not bother me here as it is as thrilling and exciting every time I am watching it. In other words,
+                                            the movie is by far better than previous movies (and I do love everything Marvel), the plotting is splendid (they really do out do themselves in each film, there are no problems watching it more than once.
+                                        </p>
+                                    </div>
+                                    <div class="review-item">
+                                        <div class="review-header">
+                                            <div class="reviewer-avatar">
+                                                <a href="#"><img src="img/userava1.jpg" alt="reviewer avatar"></a>
+                                            </div>
+                                            <div class="review-description">
+                                                <h3 class="review-title">Best Marvel movie in my opinion</h3>
+                                                <span class="review-score">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </span>
+                                                <p class="review-detail">
+                                                    <span class="review-time">17 December 2016</span>
+                                                    <span> by </span>
+                                                    <a class="reviewer-name" href="#">hawaiipierson</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="review-content">
+                                            This is by far one of my favorite movies from the MCU. The introduction of new Characters both good and bad also makes the movie more exciting. giving the characters more of a back story can also help audiences relate more to different characters better,
+                                            and it connects a bond between the audience and actors or characters. Having seen the movie three times does not bother me here as it is as thrilling and exciting every time I am watching it. In other words,
+                                            the movie is by far better than previous movies (and I do love everything Marvel), the plotting is splendid (they really do out do themselves in each film, there are no problems watching it more than once.
+                                        </p>
+                                    </div>
+                                    <div class="review-item">
+                                        <div class="review-header">
+                                            <div class="reviewer-avatar">
+                                                <a href="#"><img src="img/userava1.jpg" alt="reviewer avatar"></a>
+                                            </div>
+                                            <div class="review-description">
+                                                <h3 class="review-title">Best Marvel movie in my opinion</h3>
+                                                <span class="review-score">
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="fas fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                    <i class="far fa-star"></i>
+                                                </span>
+                                                <p class="review-detail">
+                                                    <span class="review-time">17 December 2016</span>
+                                                    <span> by </span>
+                                                    <a class="reviewer-name" href="#">hawaiipierson</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <p class="review-content">
+                                            This is by far one of my favorite movies from the MCU. The introduction of new Characters both good and bad also makes the movie more exciting. giving the characters more of a back story can also help audiences relate more to different characters better,
+                                            and it connects a bond between the audience and actors or characters. Having seen the movie three times does not bother me here as it is as thrilling and exciting every time I am watching it. In other words,
+                                            the movie is by far better than previous movies (and I do love everything Marvel), the plotting is splendid (they really do out do themselves in each film, there are no problems watching it more than once.
+                                        </p>
+                                    </div>
+                                    <ul class="pagination">
+                                        <li>
+                                            <a href="#" class="paginate-btn active">1</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="paginate-btn">2</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="paginate-btn">3</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="paginate-btn">4</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="paginate-btn">5</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="cast">
+                                <p class="tab-content-subtitle">Cast & Crew of</p>
+                                <h3 class="tab-content-title">Skyfall: Quantum of Spectre</h3>
+                                <div class="cast-item">
+                                    <h3 class="cast-item-title">Director & Credit Writer</h3>
+                                    <table class="cast-list">
+                                        <tr>
+                                            <td class="cast-info">
+                                                <div class="cast-avatar">
+                                                    <a href="#"><img src="img/cast1.jpg" alt="cast avatar"></a>
+                                                </div>
+                                                <h4 class="cast-name">
+                                                    <a href="#">Joss Whedon</a>
+                                                </h4>
+                                            </td>
+                                            <td class="cast-role">
+                                                <span>Director</span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="cast-item">
+                                    <h3 class="cast-item-title">Stars</h3>
+                                    <table class="cast-list">
+                                        <tr>
+                                            <td class="cast-info">
+                                                <div class="cast-avatar">
+                                                    <a href="#"><img src="img/cast1.jpg" alt="cast avatar"></a>
+                                                </div>
+                                                <h4 class="cast-name">
+                                                    <a href="#">Joss Whedon</a>
+                                                </h4>
+                                            </td>
+                                            <td class="cast-role">
+                                                <span>Director</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="cast-info">
+                                                <div class="cast-avatar">
+                                                    <a href="#"><img src="img/cast1.jpg" alt="cast avatar"></a>
+                                                </div>
+                                                <h4 class="cast-name">
+                                                    <a href="#">Joss Whedon</a>
+                                                </h4>
+                                            </td>
+                                            <td class="cast-role">
+                                                <span>Director</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="cast-info">
+                                                <div class="cast-avatar">
+                                                    <a href="#"><img src="img/cast1.jpg" alt="cast avatar"></a>
+                                                </div>
+                                                <h4 class="cast-name">
+                                                    <a href="#">Joss Whedon</a>
+                                                </h4>
+                                            </td>
+                                            <td class="cast-role">
+                                                <span>Director</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="cast-info">
+                                                <div class="cast-avatar">
+                                                    <a href="#"><img src="img/cast1.jpg" alt="cast avatar"></a>
+                                                </div>
+                                                <h4 class="cast-name">
+                                                    <a href="#">Joss Whedon</a>
+                                                </h4>
+                                            </td>
+                                            <td class="cast-role">
+                                                <span>Director</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="cast-info">
+                                                <div class="cast-avatar">
+                                                    <a href="#"><img src="img/cast1.jpg" alt="cast avatar"></a>
+                                                </div>
+                                                <h4 class="cast-name">
+                                                    <a href="#">Joss Whedon</a>
+                                                </h4>
+                                            </td>
+                                            <td class="cast-role">
+                                                <span>Director</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="cast-info">
+                                                <div class="cast-avatar">
+                                                    <a href="#"><img src="img/cast1.jpg" alt="cast avatar"></a>
+                                                </div>
+                                                <h4 class="cast-name">
+                                                    <a href="#">Joss Whedon</a>
+                                                </h4>
+                                            </td>
+                                            <td class="cast-role">
+                                                <span>Director</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="cast-info">
+                                                <div class="cast-avatar">
+                                                    <a href="#"><img src="img/cast1.jpg" alt="cast avatar"></a>
+                                                </div>
+                                                <h4 class="cast-name">
+                                                    <a href="#">Joss Whedon</a>
+                                                </h4>
+                                            </td>
+                                            <td class="cast-role">
+                                                <span>Director</span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="cast-info">
+                                                <div class="cast-avatar">
+                                                    <a href="#"><img src="img/cast1.jpg" alt="cast avatar"></a>
+                                                </div>
+                                                <h4 class="cast-name">
+                                                    <a href="#">Joss Whedon</a>
+                                                </h4>
+                                            </td>
+                                            <td class="cast-role">
+                                                <span>Director</span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <div id="media">
+                                <div class="media-item">
+                                    <h3 class="media-title">Videos(8)</h3>
+                                    <div class="video-list clearfix">
+                                        <div class="video-item">
+                                            <div class="video-image">
+                                                <a href="#" class="media-view"><img src="img/vd-item1.jpg" alt="video-poster"></a>
+                                            </div>
+                                            <h4 class="video-title"><a href="#">Trailer: Watch New Scenes</a></h4>
+                                            <label class="video-duration">01:40</label>
+                                        </div>
+                                        <div class="video-item">
+                                            <div class="video-image">
+                                                <a href="#" class="media-view"><img src="img/vd-item1.jpg" alt="video-poster"></a>
+                                            </div>
+                                            <h4 class="video-title"><a href="#">Trailer: Watch New Scenes</a></h4>
+                                            <label class="video-duration">01:40</label>
+                                        </div>
+                                        <div class="video-item">
+                                            <div class="video-image">
+                                                <a href="#" class="media-view"><img src="img/vd-item1.jpg" alt="video-poster"></a>
+                                            </div>
+                                            <h4 class="video-title"><a href="#">Trailer: Watch New Scenes</a></h4>
+                                            <label class="video-duration">01:40</label>
+                                        </div>
+                                        <div class="video-item">
+                                            <div class="video-image">
+                                                <a href="#" class="media-view"><img src="img/vd-item1.jpg" alt="video-poster"></a>
+                                            </div>
+                                            <h4 class="video-title"><a href="#">Trailer: Watch New Scenes</a></h4>
+                                            <label class="video-duration">01:40</label>
+                                        </div>
+                                    </div>
+                                    <p class="view-more">
+                                        <a href="#">View more</a>
+                                    </p>
+                                </div>
+                                <div class="media-item">
+                                    <h3 class="media-title">Photos(10)</h3>
+                                    <div class="photo-list clearfix">
+                                        <div class="photo-item">
+                                            <a href="#" class="media-view"><img src="img/photo-item1.jpg" alt="photo"></a>
+                                        </div>
+                                        <div class="photo-item">
+                                            <a href="#" class="media-view"><img src="img/photo-item1.jpg" alt="photo"></a>
+                                        </div>
+                                        <div class="photo-item">
+                                            <a href="#" class="media-view"><img src="img/photo-item1.jpg" alt="photo"></a>
+                                        </div>
+                                        <div class="photo-item">
+                                            <a href="#" class="media-view"><img src="img/photo-item1.jpg" alt="photo"></a>
+                                        </div>
+                                        <div class="photo-item">
+                                            <a href="#" class="media-view"><img src="img/photo-item1.jpg" alt="photo"></a>
+                                        </div>
+                                        <div class="photo-item">
+                                            <a href="#" class="media-view"><img src="img/photo-item1.jpg" alt="photo"></a>
+                                        </div>
+                                        <div class="photo-item">
+                                            <a href="#" class="media-view"><img src="img/photo-item1.jpg" alt="photo"></a>
+                                        </div>
+                                        <div class="photo-item">
+                                            <a href="#" class="media-view"><img src="img/photo-item1.jpg" alt="photo"></a>
+                                        </div>
+                                        <div class="photo-item">
+                                            <a href="#" class="media-view"><img src="img/photo-item1.jpg" alt="photo"></a>
+                                        </div>
+                                        <div class="photo-item">
+                                            <a href="#" class="media-view"><img src="img/photo-item1.jpg" alt="photo"></a>
+                                        </div>
+                                        <div class="photo-item">
+                                            <a href="#" class="media-view"><img src="img/photo-item1.jpg" alt="photo"></a>
+                                        </div>
+                                        <div class="photo-item">
+                                            <a href="#" class="media-view"><img src="img/photo-item1.jpg" alt="photo"></a>
+                                        </div>
+                                    </div>
+                                    <p class="view-more">
+                                        <a href="#">View more</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div id="related">
+                                <p class="tab-content-subtitle">Top Related Movie</p>
+                                <h3 class="tab-content-title">Skyfall: Quantum of Spectre</h3>
+                                <div class="related-content">
+                                    <div class="movie-item">
+                                        <div class="movie-poster">
+                                            <a href="#"><img src="img/mv1.jpg" alt="movie poster"></a>
+                                        </div>
+                                        <div class="movie-content">
+                                            <h2 class="movie-title"><a href="#">OBLIVION <span class="movie-year">(2012)</span></a></h2>
+                                            <p class="rating">8<span class="max-rating">/10</span></p>
+                                            <div class="movie-description">
+                                                <p class="movie-excerpt">Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...</p>
+                                                <ul class="movie-info">
+                                                    <li><span>Run time: 2h21'</span></li>
+                                                    <li><span>MMPA: PG-13</span></li>
+                                                    <li><span>Release: 01/01/2015</span></li>
+                                                </ul>
+                                                <p class="movie-director">Director: <a href="#">Joss Whedon</a></p>
+                                                <p class="movie-star">Stars: <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="movie-item">
+                                        <div class="movie-poster">
+                                            <a href="#"><img src="img/mv1.jpg" alt="movie poster"></a>
+                                        </div>
+                                        <div class="movie-content">
+                                            <h2 class="movie-title"><a href="#">OBLIVION <span class="movie-year">(2012)</span></a></h2>
+                                            <p class="rating">8<span class="max-rating">/10</span></p>
+                                            <div class="movie-description">
+                                                <p class="movie-excerpt">Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...</p>
+                                                <ul class="movie-info">
+                                                    <li><span>Run time: 2h21'</span></li>
+                                                    <li><span>MMPA: PG-13</span></li>
+                                                    <li><span>Release: 01/01/2015</span></li>
+                                                </ul>
+                                                <p class="movie-director">Director: <a href="#">Joss Whedon</a></p>
+                                                <p class="movie-star">Stars: <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="movie-item">
+                                        <div class="movie-poster">
+                                            <a href="#"><img src="img/mv1.jpg" alt="movie poster"></a>
+                                        </div>
+                                        <div class="movie-content">
+                                            <h2 class="movie-title"><a href="#">OBLIVION <span class="movie-year">(2012)</span></a></h2>
+                                            <p class="rating">8<span class="max-rating">/10</span></p>
+                                            <div class="movie-description">
+                                                <p class="movie-excerpt">Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...</p>
+                                                <ul class="movie-info">
+                                                    <li><span>Run time: 2h21'</span></li>
+                                                    <li><span>MMPA: PG-13</span></li>
+                                                    <li><span>Release: 01/01/2015</span></li>
+                                                </ul>
+                                                <p class="movie-director">Director: <a href="#">Joss Whedon</a></p>
+                                                <p class="movie-star">Stars: <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="movie-item">
+                                        <div class="movie-poster">
+                                            <a href="#"><img src="img/mv1.jpg" alt="movie poster"></a>
+                                        </div>
+                                        <div class="movie-content">
+                                            <h2 class="movie-title"><a href="#">OBLIVION <span class="movie-year">(2012)</span></a></h2>
+                                            <p class="rating">8<span class="max-rating">/10</span></p>
+                                            <div class="movie-description">
+                                                <p class="movie-excerpt">Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...</p>
+                                                <ul class="movie-info">
+                                                    <li><span>Run time: 2h21'</span></li>
+                                                    <li><span>MMPA: PG-13</span></li>
+                                                    <li><span>Release: 01/01/2015</span></li>
+                                                </ul>
+                                                <p class="movie-director">Director: <a href="#">Joss Whedon</a></p>
+                                                <p class="movie-star">Stars: <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="movie-item">
+                                        <div class="movie-poster">
+                                            <a href="#"><img src="img/mv1.jpg" alt="movie poster"></a>
+                                        </div>
+                                        <div class="movie-content">
+                                            <h2 class="movie-title"><a href="#">OBLIVION <span class="movie-year">(2012)</span></a></h2>
+                                            <p class="rating">8<span class="max-rating">/10</span></p>
+                                            <div class="movie-description">
+                                                <p class="movie-excerpt">Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...</p>
+                                                <ul class="movie-info">
+                                                    <li><span>Run time: 2h21'</span></li>
+                                                    <li><span>MMPA: PG-13</span></li>
+                                                    <li><span>Release: 01/01/2015</span></li>
+                                                </ul>
+                                                <p class="movie-director">Director: <a href="#">Joss Whedon</a></p>
+                                                <p class="movie-star">Stars: <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="movie-item">
+                                        <div class="movie-poster">
+                                            <a href="#"><img src="img/mv1.jpg" alt="movie poster"></a>
+                                        </div>
+                                        <div class="movie-content">
+                                            <h2 class="movie-title"><a href="#">OBLIVION <span class="movie-year">(2012)</span></a></h2>
+                                            <p class="rating">8<span class="max-rating">/10</span></p>
+                                            <div class="movie-description">
+                                                <p class="movie-excerpt">Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...</p>
+                                                <ul class="movie-info">
+                                                    <li><span>Run time: 2h21'</span></li>
+                                                    <li><span>MMPA: PG-13</span></li>
+                                                    <li><span>Release: 01/01/2015</span></li>
+                                                </ul>
+                                                <p class="movie-director">Director: <a href="#">Joss Whedon</a></p>
+                                                <p class="movie-star">Stars: <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="movie-item">
+                                        <div class="movie-poster">
+                                            <a href="#"><img src="img/mv1.jpg" alt="movie poster"></a>
+                                        </div>
+                                        <div class="movie-content">
+                                            <h2 class="movie-title"><a href="#">OBLIVION <span class="movie-year">(2012)</span></a></h2>
+                                            <p class="rating">8<span class="max-rating">/10</span></p>
+                                            <div class="movie-description">
+                                                <p class="movie-excerpt">Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...</p>
+                                                <ul class="movie-info">
+                                                    <li><span>Run time: 2h21'</span></li>
+                                                    <li><span>MMPA: PG-13</span></li>
+                                                    <li><span>Release: 01/01/2015</span></li>
+                                                </ul>
+                                                <p class="movie-director">Director: <a href="#">Joss Whedon</a></p>
+                                                <p class="movie-star">Stars: <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="movie-item">
+                                        <div class="movie-poster">
+                                            <a href="#"><img src="img/mv1.jpg" alt="movie poster"></a>
+                                        </div>
+                                        <div class="movie-content">
+                                            <h2 class="movie-title"><a href="#">OBLIVION <span class="movie-year">(2012)</span></a></h2>
+                                            <p class="rating">8<span class="max-rating">/10</span></p>
+                                            <div class="movie-description">
+                                                <p class="movie-excerpt">Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...</p>
+                                                <ul class="movie-info">
+                                                    <li><span>Run time: 2h21'</span></li>
+                                                    <li><span>MMPA: PG-13</span></li>
+                                                    <li><span>Release: 01/01/2015</span></li>
+                                                </ul>
+                                                <p class="movie-director">Director: <a href="#">Joss Whedon</a></p>
+                                                <p class="movie-star">Stars: <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End  Viet content o day-->
+
+        <div class="footer">
+            <div class="container">
+                <div class="top-footer clearfix">
+                    <div class="site-col footer-col">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+                        </div>
+                        <div class="site-info">
+                            <p class="site-address">77th Ave NW, Stanwood, New York, NY 10507</p>
+                            <p class="site-phone">+84 123-456-789</p>
+                            <p class="site-email">localhost@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="link-col footer-col">
+                        <h2 class="footer-col-title">Links</h2>
+                        <ul>
+                            <li><a href="#" class="footer-link">Movies</a></li>
+                            <li><a href="#" class="footer-link">Celebrities</a></li>
+                            <li><a href="#" class="footer-link">Movie Genres</a></li>
+                            <li><a href="#" class="footer-link">Reviews</a></li>
+                            <li><a href="#" class="footer-link">News</a></li>
+                        </ul>
+                    </div>
+                    <div class="legal-col footer-col">
+                        <h2 class="footer-col-title">Legals</h2>
+                        <ul>
+                            <li><a href="#" class="footer-link">Privacy</a></li>
+                            <li><a href="#" class="footer-link">Cookie</a></li>
+                            <li><a href="#" class="footer-link">Security</a></li>
+                        </ul>
+                    </div>
+                    <div class="account-col footer-col">
+                        <h2 class="footer-col-title">Accounts</h2>
+                        <ul>
+                            <li><a href="#" class="footer-link">Login</a></li>
+                            <li><a href="#" class="footer-link">Sign Up</a></li>
+                            <li><a href="#" class="footer-link">Profile</a></li>
+                        </ul>
+                    </div>
+                    <div class="newsletter-col footer-col">
+                        <h2 class="footer-col-title">Newsletter</h2>
+                        <p class="newsletter-description">Subscribe to our newsletter system now to get latest news from us.</p>
+                        <input class="newsletter-input" type="email" placeholder="Enter your email ...">
+                        <a class="newsletter-submit" href="#">Subcribe Now</a>
+                    </div>
+                </div>
+                <div class="copyright-footer clearfix">
+                    <p class="copyright">&copy; 2020 FiRi - All Right Reserved.</p>
+                    <p class="to-top">
+                        <a href="#" class="to-top-link">Back to Top!</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-overlay">
+        <div class="login-modal">
+            <h2 class="modal-title">Login</h2>
+            <form class="modal-form">
+                <div class="form-group">
+                    <label class="form-label" for="login-email">Email:</label>
+                    <input class="form-input" id="login-email" type="email" placeholder="Enter Your Email ...">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="login-password">Password:</label>
+                    <input class="form-input" id="login-password" type="password" placeholder="Enter Your Password ...">
+                </div>
+                <div class="form-group clearfix">
+                    <label class="form-check-label" for="remember-me"><input id="remember-me" type="checkbox" class="form-check">Remeber me!</label>
+                    <p class="form-forgot">
+                        <a href="#" class="form-link">Forgot your password?</a>
+                    </p>
+                </div>
+                <div class="form-button-group">
+                    <button class="form-button" type="submit">Login</button>
+                </div>
+            </form>
+        </div>
+        <div class="signup-modal">
+            <h2 class="modal-title">Sign up</h2>
+            <form class="modal-form">
+                <div class="form-group">
+                    <label class="form-label" for="signup-name">Your Name:</label>
+                    <input class="form-input" id="signup-name" type="text" placeholder="Enter Your Name ...">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="signup-email">Email:</label>
+                    <input class="form-input" id="signup-email" type="email" placeholder="Enter Your Email ...">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="signup-password">Password:</label>
+                    <input class="form-input" id="signup-password" type="password" placeholder="Enter Your Password ...">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="re-password">Confirm Password:</label>
+                    <input class="form-input" id="re-password" type="password" placeholder="Enter Your Password ...">
+                </div>
+                <div class="form-button-group">
+                    <button class="form-button" type="submit">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="view-modal-overlay">
+        <div class="view-modal">
+            <div class="view-modal-slider">
+                <div class="view-modal-item">
+                    <img src="img/slider.jpg">
+                </div>
+                <div class="view-modal-item">
+                    <img src="img/slider.jpg">
+                </div>
+                <div class="view-modal-item">
+                    <img src="img/slider.jpg">
+                </div>
+                <div class="view-modal-item">
+                    <img src="img/slider.jpg">
+                </div>
+                <div class="view-modal-item">
+                    <img src="img/slider.jpg">
+                </div>
+                <div class="view-modal-item">
+                    <img src="img/slider.jpg">
+                </div>
+                <div class="view-modal-item">
+                    <img src="img/slider.jpg">
+                </div>
+                <div class="view-modal-item">
+                    <img src="img/slider.jpg">
+                </div>
+                <div class="view-modal-item">
+                    <img src="img/slider.jpg">
+                </div>
+                <div class="view-modal-item">
+                    <img src="img/slider.jpg">
+                </div>
+                <div class="view-modal-item">
+                    <img src="img/slider.jpg">
+                </div>
+                <div class="view-modal-item">
+                    <img src="img/slider.jpg">
+                </div>
+            </div>
+            <div class="view-modal-nav">
+                <div class="view-modal-item">
+                    <img src="img/slider.jpg">
+                </div>
+                <div class="view-modal-item">
+                    <img src="img/slider.jpg">
+                </div>
+                <div class="view-modal-item">
+                    <img src="img/slider.jpg">
+                </div>
+                <div class="view-modal-item">
+                    <img src="img/slider.jpg">
+                </div>
+                <div class="view-modal-item">
+                    <img src="img/slider.jpg">
+                </div>
+                <div class="view-modal-item">
+                    <img src="img/slider.jpg">
+                </div>
+                <div class="view-modal-item">
+                    <img src="img/slider.jpg">
+                </div>
+                <div class="view-modal-item">
+                    <img src="img/slider.jpg">
+                </div>
+                <div class="view-modal-item">
+                    <img src="img/slider.jpg">
+                </div>
+                <div class="view-modal-item">
+                    <img src="img/slider.jpg">
+                </div>
+                <div class="view-modal-item">
+                    <img src="img/slider.jpg">
+                </div>
+                <div class="view-modal-item">
+                    <img src="img/slider.jpg">
+                </div>
+            </div>
+            <div class="view-trailer">
+                <iframe src="https://www.youtube.com/embed/gbug3zTm3Ws" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            </div>
+            <span class="close-view-modal">
+                <i class="fas fa-times"></i>
+            </span>
+        </div>
+    </div>
+
+
+    <div class="preload">
+        <div class="loading">
+            <img class="loading-image" src="img/loading.gif" alt="preload">
+        </div>
+    </div>
+
+    <script src="lib/jquery/jquery-1.11.0.min.js"></script>
+    <script src="lib/jquery/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="lib/slick/slick.min.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/nav-tab.js"></script>
+    <script src="js/movie-single.js"></script>
+</body>
+
+</html>

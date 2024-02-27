@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="lib/font-awesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Firi - Your Rated Movies</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="header">
+            <div class="top-header">
+                <div class="container">
+                    <div class="menu-container">
+                        <nav class="main-menu clearfix">
+                            <div class="site-logo">
+                                <div class="logo-image">
+                                    <h1>
+                                        <a class="logo-link" href="index.html">
+                                            <img src="img/logo.png" alt="logo image">
+                                        </a>
+                                    </h1>
+                                </div>
+                                <div class="toggle-menu">
+                                    <span class="toggle-menu-icon"><i class="fas fa-bars"></i></span>
+                                </div>
+                            </div>
+                            <div class="site-menu clearfix">
+                                <ul class="left-menu">
+                                    <li><a href="#">Home</a></li>
+                                    <li class="parent-menu"><a href="#">Movies</a>
+                                        <ul class="child-menu">
+                                            <li><a href="#">Movies 1</a></li>
+                                            <li><a href="#">Movies 1</a></li>
+                                            <li><a href="#">Movies 1</a></li>
+                                            <li><a href="#">Movies 1</a></li>
+                                            <li class="parent-menu"><a href="#">Movies 1</a>
+                                                <ul class="child-menu">
+                                                    <li><a href="#">Movies 1</a></li>
+                                                    <li><a href="#">Movies 1</a></li>
+                                                    <li><a href="#">Movies 1</a></li>
+                                                    <li><a href="#">Movies 1</a></li>
+                                                    <li><a href="#">Movies 1</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Celebrities</a></li>
+                                    <li><a href="#">News</a></li>
+                                    <li><a href="#">Reviews</a></li>
+                                </ul>
+                                <ul class="right-menu">
+                                    <li class="profile-menu">
+                                        <a class="profile-link" href="profile.html">
+                                            <div class="profile-avatar">
+                                                <img alt="avatar" src="img/ava1.jpg">
+                                            </div>
+                                            <span class="profile-name">John Snow</span>
+                                        </a>
+                                        <ul class="account-child">
+                                            <li><a href="#">Profile</a></li>
+                                            <li><a href="#">Change Password</a></li>
+                                            <li><a href="#" class="logout-link">Logout</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="top-search">
+                        <div class="search-block clearfix">
+                            <select class="search-type">
+                                <option value="0">Movies</option>
+                                <option value="1">Celebrities</option>
+                                <option value="2">News</option>
+                                <option value="3">Reviews</option>
+                                <option value="4">All</option>
+                            </select>
+                            <input class="search-input" type="text" placeholder="Search somethings ...">
+                        </div>
+                        <div class="top-result clearfix">
+                            <div class="multi-result">
+                                <div class="result-col">
+                                    <p class="result-title">Movies</p>
+                                    <ul class="result-list">
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="result-col">
+                                    <p class="result-title">Celebrities</p>
+                                    <ul class="result-list">
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="result-col">
+                                    <p class="result-title">News</p>
+                                    <ul class="result-list">
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="result-col">
+                                    <p class="result-title">Reviews</p>
+                                    <p class="empty-result">No result found!</p>
+                                </div>
+                            </div>
+                            <div class="single-result">
+                                <div class="result-col">
+                                    <p class="result-title">Movies</p>
+                                    <ul class="result-list">
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Viet content o day-->
+        <div class="content">
+            <div class="container">
+                <div class="profile-container clearfix">
+                    <div class="profile-nav">
+                        <div class="profile-info">
+                            <div class="profile-avatar">
+                                <img src="img/ava1.jpg" alt="avatar">
+                            </div>
+                            <input type="file" name="fileAvatar" accept="image/png, image/jpeg" hidden>
+                            <button type="button" class="save-avatar">Save Avatar</button>
+                            <button type="button" class="clear-avatar">Clear Avatar</button>
+                            <button type="button" class="change-avatar">Change Avatar</button>
+                        </div>
+                        <div class="account-detail">
+                            <p class="profile-title">Account</p>
+                            <ul>
+                                <li><a href="#">Profile</a></li>
+                                <li><a href="#" class="active">Favorite Movies</a></li>
+                                <li><a href="#">Rated Movies</a></li>
+                                <li><a href="#">Schedule Movies</a></li>
+                            </ul>
+                        </div>
+                        <div class="account-detail">
+                            <p class="profile-title">Other</p>
+                            <ul>
+                                <li><a href="#">Change Password</a></li>
+                                <li><a href="#">Logout</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="profile-content">
+                        <h2 class="profile-name">John Snow's Profile</h2>
+                        <ul class="profile-breadcrum">
+                            <li><a href="#">Home</a></li>
+                            <li><a class="current">Rated Movies</a></li>
+                        </ul>
+                        <div class="profile-detail">
+                            <div class="content-detail favorite-movie">
+                                <div class="header-bar clearfix">
+                                    <p class="total-found">Found <span class="number-found">1,608 movies</span> in total</p>
+                                    <p class="filter-option">
+                                        <span class="header-bar-text">Sort by:</span>
+                                        <select class="filter-select sort-by">
+                                                <option value="0">Popularity Descending</option>
+                                                <option value="0">Popularity Descending</option>
+                                                <option value="0">Popularity Descending</option>
+                                                <option value="0">Popularity Descending</option>
+                                            </select>
+                                        <span class="detail-view active" target-item="movie-item"><i class="fas fa-list"></i></span>
+                                        <span class="grid-view" target-item="movie-item"><i class="fas fa-th"></i></span>
+                                    </p>
+                                </div>
+                                <div class="content-list">
+                                    <div class="movie-item">
+                                        <div class="movie-poster">
+                                            <a href="#"><img src="img/mv1.jpg" alt="movie poster"></a>
+                                        </div>
+                                        <div class="movie-content">
+                                            <h2 class="movie-title"><a href="#">OBLIVION <span class="movie-year">(2012)</span></a></h2>
+                                            <p class="rating">8<span class="max-rating">/10</span></p>
+                                            <div class="movie-description">
+                                                <p class="movie-excerpt">Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...</p>
+                                                <ul class="movie-info">
+                                                    <li><span>Run time: 2h21'</span></li>
+                                                    <li><span>MMPA: PG-13</span></li>
+                                                    <li><span>Release: 01/01/2015</span></li>
+                                                </ul>
+                                                <p class="movie-director">Director: <a href="#">Joss Whedon</a></p>
+                                                <p class="movie-star">Stars: <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="movie-item">
+                                        <div class="movie-poster">
+                                            <a href="#"><img src="img/mv1.jpg" alt="movie poster"></a>
+                                        </div>
+                                        <div class="movie-content">
+                                            <h2 class="movie-title"><a href="#">OBLIVION <span class="movie-year">(2012)</span></a></h2>
+                                            <p class="rating">8<span class="max-rating">/10</span></p>
+                                            <div class="movie-description">
+                                                <p class="movie-excerpt">Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...</p>
+                                                <ul class="movie-info">
+                                                    <li><span>Run time: 2h21'</span></li>
+                                                    <li><span>MMPA: PG-13</span></li>
+                                                    <li><span>Release: 01/01/2015</span></li>
+                                                </ul>
+                                                <p class="movie-director">Director: <a href="#">Joss Whedon</a></p>
+                                                <p class="movie-star">Stars: <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="movie-item">
+                                        <div class="movie-poster">
+                                            <a href="#"><img src="img/mv1.jpg" alt="movie poster"></a>
+                                        </div>
+                                        <div class="movie-content">
+                                            <h2 class="movie-title"><a href="#">OBLIVION <span class="movie-year">(2012)</span></a></h2>
+                                            <p class="rating">8<span class="max-rating">/10</span></p>
+                                            <div class="movie-description">
+                                                <p class="movie-excerpt">Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...</p>
+                                                <ul class="movie-info">
+                                                    <li><span>Run time: 2h21'</span></li>
+                                                    <li><span>MMPA: PG-13</span></li>
+                                                    <li><span>Release: 01/01/2015</span></li>
+                                                </ul>
+                                                <p class="movie-director">Director: <a href="#">Joss Whedon</a></p>
+                                                <p class="movie-star">Stars: <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="movie-item">
+                                        <div class="movie-poster">
+                                            <a href="#"><img src="img/mv1.jpg" alt="movie poster"></a>
+                                        </div>
+                                        <div class="movie-content">
+                                            <h2 class="movie-title"><a href="#">OBLIVION <span class="movie-year">(2012)</span></a></h2>
+                                            <p class="rating">8<span class="max-rating">/10</span></p>
+                                            <div class="movie-description">
+                                                <p class="movie-excerpt">Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...</p>
+                                                <ul class="movie-info">
+                                                    <li><span>Run time: 2h21'</span></li>
+                                                    <li><span>MMPA: PG-13</span></li>
+                                                    <li><span>Release: 01/01/2015</span></li>
+                                                </ul>
+                                                <p class="movie-director">Director: <a href="#">Joss Whedon</a></p>
+                                                <p class="movie-star">Stars: <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="movie-item">
+                                        <div class="movie-poster">
+                                            <a href="#"><img src="img/mv1.jpg" alt="movie poster"></a>
+                                        </div>
+                                        <div class="movie-content">
+                                            <h2 class="movie-title"><a href="#">OBLIVION <span class="movie-year">(2012)</span></a></h2>
+                                            <p class="rating">8<span class="max-rating">/10</span></p>
+                                            <div class="movie-description">
+                                                <p class="movie-excerpt">Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...</p>
+                                                <ul class="movie-info">
+                                                    <li><span>Run time: 2h21'</span></li>
+                                                    <li><span>MMPA: PG-13</span></li>
+                                                    <li><span>Release: 01/01/2015</span></li>
+                                                </ul>
+                                                <p class="movie-director">Director: <a href="#">Joss Whedon</a></p>
+                                                <p class="movie-star">Stars: <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="movie-item">
+                                        <div class="movie-poster">
+                                            <a href="#"><img src="img/mv1.jpg" alt="movie poster"></a>
+                                        </div>
+                                        <div class="movie-content">
+                                            <h2 class="movie-title"><a href="#">OBLIVION <span class="movie-year">(2012)</span></a></h2>
+                                            <p class="rating">8<span class="max-rating">/10</span></p>
+                                            <div class="movie-description">
+                                                <p class="movie-excerpt">Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...</p>
+                                                <ul class="movie-info">
+                                                    <li><span>Run time: 2h21'</span></li>
+                                                    <li><span>MMPA: PG-13</span></li>
+                                                    <li><span>Release: 01/01/2015</span></li>
+                                                </ul>
+                                                <p class="movie-director">Director: <a href="#">Joss Whedon</a></p>
+                                                <p class="movie-star">Stars: <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="movie-item">
+                                        <div class="movie-poster">
+                                            <a href="#"><img src="img/mv1.jpg" alt="movie poster"></a>
+                                        </div>
+                                        <div class="movie-content">
+                                            <h2 class="movie-title"><a href="#">OBLIVION <span class="movie-year">(2012)</span></a></h2>
+                                            <p class="rating">8<span class="max-rating">/10</span></p>
+                                            <div class="movie-description">
+                                                <p class="movie-excerpt">Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...</p>
+                                                <ul class="movie-info">
+                                                    <li><span>Run time: 2h21'</span></li>
+                                                    <li><span>MMPA: PG-13</span></li>
+                                                    <li><span>Release: 01/01/2015</span></li>
+                                                </ul>
+                                                <p class="movie-director">Director: <a href="#">Joss Whedon</a></p>
+                                                <p class="movie-star">Stars: <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="movie-item">
+                                        <div class="movie-poster">
+                                            <a href="#"><img src="img/mv1.jpg" alt="movie poster"></a>
+                                        </div>
+                                        <div class="movie-content">
+                                            <h2 class="movie-title"><a href="#">OBLIVION <span class="movie-year">(2012)</span></a></h2>
+                                            <p class="rating">8<span class="max-rating">/10</span></p>
+                                            <div class="movie-description">
+                                                <p class="movie-excerpt">Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...</p>
+                                                <ul class="movie-info">
+                                                    <li><span>Run time: 2h21'</span></li>
+                                                    <li><span>MMPA: PG-13</span></li>
+                                                    <li><span>Release: 01/01/2015</span></li>
+                                                </ul>
+                                                <p class="movie-director">Director: <a href="#">Joss Whedon</a></p>
+                                                <p class="movie-star">Stars: <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="movie-item">
+                                        <div class="movie-poster">
+                                            <a href="#"><img src="img/mv1.jpg" alt="movie poster"></a>
+                                        </div>
+                                        <div class="movie-content">
+                                            <h2 class="movie-title"><a href="#">OBLIVION <span class="movie-year">(2012)</span></a></h2>
+                                            <p class="rating">8<span class="max-rating">/10</span></p>
+                                            <div class="movie-description">
+                                                <p class="movie-excerpt">Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...</p>
+                                                <ul class="movie-info">
+                                                    <li><span>Run time: 2h21'</span></li>
+                                                    <li><span>MMPA: PG-13</span></li>
+                                                    <li><span>Release: 01/01/2015</span></li>
+                                                </ul>
+                                                <p class="movie-director">Director: <a href="#">Joss Whedon</a></p>
+                                                <p class="movie-star">Stars: <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="movie-item">
+                                        <div class="movie-poster">
+                                            <a href="#"><img src="img/mv1.jpg" alt="movie poster"></a>
+                                        </div>
+                                        <div class="movie-content">
+                                            <h2 class="movie-title"><a href="#">OBLIVION <span class="movie-year">(2012)</span></a></h2>
+                                            <p class="rating">8<span class="max-rating">/10</span></p>
+                                            <div class="movie-description">
+                                                <p class="movie-excerpt">Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...</p>
+                                                <ul class="movie-info">
+                                                    <li><span>Run time: 2h21'</span></li>
+                                                    <li><span>MMPA: PG-13</span></li>
+                                                    <li><span>Release: 01/01/2015</span></li>
+                                                </ul>
+                                                <p class="movie-director">Director: <a href="#">Joss Whedon</a></p>
+                                                <p class="movie-star">Stars: <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="movie-item">
+                                        <div class="movie-poster">
+                                            <a href="#"><img src="img/mv1.jpg" alt="movie poster"></a>
+                                        </div>
+                                        <div class="movie-content">
+                                            <h2 class="movie-title"><a href="#">OBLIVION <span class="movie-year">(2012)</span></a></h2>
+                                            <p class="rating">8<span class="max-rating">/10</span></p>
+                                            <div class="movie-description">
+                                                <p class="movie-excerpt">Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...</p>
+                                                <ul class="movie-info">
+                                                    <li><span>Run time: 2h21'</span></li>
+                                                    <li><span>MMPA: PG-13</span></li>
+                                                    <li><span>Release: 01/01/2015</span></li>
+                                                </ul>
+                                                <p class="movie-director">Director: <a href="#">Joss Whedon</a></p>
+                                                <p class="movie-star">Stars: <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="movie-item">
+                                        <div class="movie-poster">
+                                            <a href="#"><img src="img/mv1.jpg" alt="movie poster"></a>
+                                        </div>
+                                        <div class="movie-content">
+                                            <h2 class="movie-title"><a href="#">OBLIVION <span class="movie-year">(2012)</span></a></h2>
+                                            <p class="rating">8<span class="max-rating">/10</span></p>
+                                            <div class="movie-description">
+                                                <p class="movie-excerpt">Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...</p>
+                                                <ul class="movie-info">
+                                                    <li><span>Run time: 2h21'</span></li>
+                                                    <li><span>MMPA: PG-13</span></li>
+                                                    <li><span>Release: 01/01/2015</span></li>
+                                                </ul>
+                                                <p class="movie-director">Director: <a href="#">Joss Whedon</a></p>
+                                                <p class="movie-star">Stars: <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="movie-item">
+                                        <div class="movie-poster">
+                                            <a href="#"><img src="img/mv1.jpg" alt="movie poster"></a>
+                                        </div>
+                                        <div class="movie-content">
+                                            <h2 class="movie-title"><a href="#">OBLIVION <span class="movie-year">(2012)</span></a></h2>
+                                            <p class="rating">8<span class="max-rating">/10</span></p>
+                                            <div class="movie-description">
+                                                <p class="movie-excerpt">Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...</p>
+                                                <ul class="movie-info">
+                                                    <li><span>Run time: 2h21'</span></li>
+                                                    <li><span>MMPA: PG-13</span></li>
+                                                    <li><span>Release: 01/01/2015</span></li>
+                                                </ul>
+                                                <p class="movie-director">Director: <a href="#">Joss Whedon</a></p>
+                                                <p class="movie-star">Stars: <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="movie-item">
+                                        <div class="movie-poster">
+                                            <a href="#"><img src="img/mv1.jpg" alt="movie poster"></a>
+                                        </div>
+                                        <div class="movie-content">
+                                            <h2 class="movie-title"><a href="#">OBLIVION <span class="movie-year">(2012)</span></a></h2>
+                                            <p class="rating">8<span class="max-rating">/10</span></p>
+                                            <div class="movie-description">
+                                                <p class="movie-excerpt">Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...</p>
+                                                <ul class="movie-info">
+                                                    <li><span>Run time: 2h21'</span></li>
+                                                    <li><span>MMPA: PG-13</span></li>
+                                                    <li><span>Release: 01/01/2015</span></li>
+                                                </ul>
+                                                <p class="movie-director">Director: <a href="#">Joss Whedon</a></p>
+                                                <p class="movie-star">Stars: <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="movie-item">
+                                        <div class="movie-poster">
+                                            <a href="#"><img src="img/mv1.jpg" alt="movie poster"></a>
+                                        </div>
+                                        <div class="movie-content">
+                                            <h2 class="movie-title"><a href="#">OBLIVION <span class="movie-year">(2012)</span></a></h2>
+                                            <p class="rating">8<span class="max-rating">/10</span></p>
+                                            <div class="movie-description">
+                                                <p class="movie-excerpt">Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...</p>
+                                                <ul class="movie-info">
+                                                    <li><span>Run time: 2h21'</span></li>
+                                                    <li><span>MMPA: PG-13</span></li>
+                                                    <li><span>Release: 01/01/2015</span></li>
+                                                </ul>
+                                                <p class="movie-director">Director: <a href="#">Joss Whedon</a></p>
+                                                <p class="movie-star">Stars: <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="movie-item">
+                                        <div class="movie-poster">
+                                            <a href="#"><img src="img/mv1.jpg" alt="movie poster"></a>
+                                        </div>
+                                        <div class="movie-content">
+                                            <h2 class="movie-title"><a href="#">OBLIVION <span class="movie-year">(2012)</span></a></h2>
+                                            <p class="rating">8<span class="max-rating">/10</span></p>
+                                            <div class="movie-description">
+                                                <p class="movie-excerpt">Earth's mightiest heroes must come together and learn to fight as a team if they are to stop the mischievous Loki and his alien army from enslaving humanity...</p>
+                                                <ul class="movie-info">
+                                                    <li><span>Run time: 2h21'</span></li>
+                                                    <li><span>MMPA: PG-13</span></li>
+                                                    <li><span>Release: 01/01/2015</span></li>
+                                                </ul>
+                                                <p class="movie-director">Director: <a href="#">Joss Whedon</a></p>
+                                                <p class="movie-star">Stars: <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a>, <a href="#">Joss Whedon</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer-bar clearfix">
+                                    <div class="item-display">
+                                        <span class="footer-bar-text">Movie per page:</span>
+                                        <select class="filter-select number-display">
+                                            <option value="0">10 items</option>
+                                            <option value="0">20 items</option>
+                                            <option value="0">30 items</option>
+                                        </select>
+                                    </div>
+                                    <div class="footer-bar-pagination">
+                                        <span class="page-count-text">Page 1 of 4:</span>
+                                        <ul class="footer-pagination">
+                                            <li>
+                                                <a href="#"><i class="fas fa-chevron-left"></i></a>
+                                            </li>
+                                            <li>
+                                                <a href="#">1</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">2</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">3</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">4</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fas fa-chevron-right"></i></a>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End  Viet content o day-->
+
+        <div class="footer">
+            <div class="container">
+                <div class="top-footer clearfix">
+                    <div class="site-col footer-col">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+                        </div>
+                        <div class="site-info">
+                            <p class="site-address">77th Ave NW, Stanwood, New York, NY 10507</p>
+                            <p class="site-phone">+84 123-456-789</p>
+                            <p class="site-email">localhost@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="link-col footer-col">
+                        <h2 class="footer-col-title">Links</h2>
+                        <ul>
+                            <li><a href="#" class="footer-link">Movies</a></li>
+                            <li><a href="#" class="footer-link">Celebrities</a></li>
+                            <li><a href="#" class="footer-link">Movie Genres</a></li>
+                            <li><a href="#" class="footer-link">Reviews</a></li>
+                            <li><a href="#" class="footer-link">News</a></li>
+                        </ul>
+                    </div>
+                    <div class="legal-col footer-col">
+                        <h2 class="footer-col-title">Legals</h2>
+                        <ul>
+                            <li><a href="#" class="footer-link">Privacy</a></li>
+                            <li><a href="#" class="footer-link">Cookie</a></li>
+                            <li><a href="#" class="footer-link">Security</a></li>
+                        </ul>
+                    </div>
+                    <div class="account-col footer-col">
+                        <h2 class="footer-col-title">Accounts</h2>
+                        <ul>
+                            <li><a href="#" class="footer-link">Login</a></li>
+                            <li><a href="#" class="footer-link">Sign Up</a></li>
+                            <li><a href="#" class="footer-link">Profile</a></li>
+                        </ul>
+                    </div>
+                    <div class="newsletter-col footer-col">
+                        <h2 class="footer-col-title">Newsletter</h2>
+                        <p class="newsletter-description">Subscribe to our newsletter system now to get latest news from us.</p>
+                        <input class="newsletter-input" type="email" placeholder="Enter your email ...">
+                        <a class="newsletter-submit" href="#">Subcribe Now</a>
+                    </div>
+                </div>
+                <div class="copyright-footer clearfix">
+                    <p class="copyright">&copy; 2020 FiRi - All Right Reserved.</p>
+                    <p class="to-top">
+                        <a href="#" class="to-top-link">Back to Top!</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="preload">
+        <div class="loading">
+            <img class="loading-image" src="img/loading.gif" alt="preload">
+        </div>
+    </div>
+
+    <script src="lib/jquery/jquery-1.11.0.min.js"></script>
+    <script src="lib/jquery/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/profile.js"></script>
+    <script src="js/switch-layout.js"></script>
+</body>
+
+</html>

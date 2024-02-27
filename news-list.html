@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="lib/font-awesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="lib/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="lib/slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="lib/select2/css/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Firi - News</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="header">
+            <div class="top-header">
+                <div class="container">
+                    <div class="menu-container">
+                        <nav class="main-menu clearfix">
+                            <div class="site-logo">
+                                <div class="logo-image">
+                                    <h1>
+                                        <a class="logo-link" href="index.html">
+                                            <img src="img/logo.png" alt="logo image">
+                                        </a>
+                                    </h1>
+                                </div>
+                                <div class="toggle-menu">
+                                    <span class="toggle-menu-icon"><i class="fas fa-bars"></i></span>
+                                </div>
+                            </div>
+                            <div class="site-menu clearfix">
+                                <ul class="left-menu">
+                                    <li><a href="#">Home</a></li>
+                                    <li class="parent-menu"><a href="#">Movies</a>
+                                        <ul class="child-menu">
+                                            <li><a href="#">Movies 1</a></li>
+                                            <li><a href="#">Movies 1</a></li>
+                                            <li><a href="#">Movies 1</a></li>
+                                            <li><a href="#">Movies 1</a></li>
+                                            <li class="parent-menu"><a href="#">Movies 1</a>
+                                                <ul class="child-menu">
+                                                    <li><a href="#">Movies 1</a></li>
+                                                    <li><a href="#">Movies 1</a></li>
+                                                    <li><a href="#">Movies 1</a></li>
+                                                    <li><a href="#">Movies 1</a></li>
+                                                    <li><a href="#">Movies 1</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Celebrities</a></li>
+                                    <li><a href="#">News</a></li>
+                                    <li><a href="#">Reviews</a></li>
+                                </ul>
+                                <ul class="right-menu">
+                                    <li><a id="login-link" href="#">Login</a></li>
+                                    <li><a id="signup-link" class="signup-button" href="#">Sign Up</a></li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="top-search">
+                        <div class="search-block clearfix">
+                            <select class="search-type">
+                                <option value="0">Movies</option>
+                                <option value="1">Celebrities</option>
+                                <option value="2">News</option>
+                                <option value="3">Reviews</option>
+                                <option value="4">All</option>
+                            </select>
+                            <input class="search-input" type="text" placeholder="Search somethings ...">
+                        </div>
+                        <div class="top-result clearfix">
+                            <div class="multi-result">
+                                <div class="result-col">
+                                    <p class="result-title">Movies</p>
+                                    <ul class="result-list">
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="result-col">
+                                    <p class="result-title">Celebrities</p>
+                                    <ul class="result-list">
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="result-col">
+                                    <p class="result-title">News</p>
+                                    <ul class="result-list">
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="result-col">
+                                    <p class="result-title">Reviews</p>
+                                    <p class="empty-result">No result found!</p>
+                                </div>
+                            </div>
+                            <div class="single-result">
+                                <div class="result-col">
+                                    <p class="result-title">Movies</p>
+                                    <ul class="result-list">
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <div class="featured-image"><img src="img/ava1.jpg"></div>
+                                                <span>Batman 2008</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Viet content o day-->
+        <div class="content">
+            <div class="container">
+                <div class="content-header">
+                    <h2 class="content-title">NEWS LIST</h2>
+                    <ul class="breadcrum">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a class="current-breadcrum" href="#">NEWS LIST</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="content-data clearfix">
+                    <div class="content-detail">
+                        <div class="content-list">
+                            <div class="news-item clearfix">
+                                <div class="news-image">
+                                    <img src="img/bloglist-it1.jpg" alt="news image">
+                                </div>
+                                <div class="news-content">
+                                    <h3 class="news-title"><a href="#">Godzilla: King Of The Monsters Adds O’Shea Jackson Jr</a></h3>
+                                    <span class="news-time">27 Mar 2017</span>
+                                    <p class="news-excerpt">Africa's burgeoning animation scene got a boost this week with the announcement of an ambitious new partnership that will pair rising talents from across the continent ...</p>
+                                </div>
+                            </div>
+                            <div class="news-item clearfix">
+                                <div class="news-image">
+                                    <img src="img/bloglist-it1.jpg" alt="news image">
+                                </div>
+                                <div class="news-content">
+                                    <h3 class="news-title"><a href="#">Godzilla: King Of The Monsters Adds O’Shea Jackson Jr</a></h3>
+                                    <span class="news-time">27 Mar 2017</span>
+                                    <p class="news-excerpt">Africa's burgeoning animation scene got a boost this week with the announcement of an ambitious new partnership that will pair rising talents from across the continent ...</p>
+                                </div>
+                            </div>
+                            <div class="news-item clearfix">
+                                <div class="news-image">
+                                    <img src="img/bloglist-it1.jpg" alt="news image">
+                                </div>
+                                <div class="news-content">
+                                    <h3 class="news-title"><a href="#">Godzilla: King Of The Monsters Adds O’Shea Jackson Jr</a></h3>
+                                    <span class="news-time">27 Mar 2017</span>
+                                    <p class="news-excerpt">Africa's burgeoning animation scene got a boost this week with the announcement of an ambitious new partnership that will pair rising talents from across the continent ...</p>
+                                </div>
+                            </div>
+                            <div class="news-item clearfix">
+                                <div class="news-image">
+                                    <img src="img/bloglist-it1.jpg" alt="news image">
+                                </div>
+                                <div class="news-content">
+                                    <h3 class="news-title"><a href="#">Godzilla: King Of The Monsters Adds O’Shea Jackson Jr</a></h3>
+                                    <span class="news-time">27 Mar 2017</span>
+                                    <p class="news-excerpt">Africa's burgeoning animation scene got a boost this week with the announcement of an ambitious new partnership that will pair rising talents from across the continent ...</p>
+                                </div>
+                            </div>
+                            <div class="news-item clearfix">
+                                <div class="news-image">
+                                    <img src="img/bloglist-it1.jpg" alt="news image">
+                                </div>
+                                <div class="news-content">
+                                    <h3 class="news-title"><a href="#">Godzilla: King Of The Monsters Adds O’Shea Jackson Jr</a></h3>
+                                    <span class="news-time">27 Mar 2017</span>
+                                    <p class="news-excerpt">Africa's burgeoning animation scene got a boost this week with the announcement of an ambitious new partnership that will pair rising talents from across the continent ...</p>
+                                </div>
+                            </div>
+                            <div class="news-item clearfix">
+                                <div class="news-image">
+                                    <img src="img/bloglist-it1.jpg" alt="news image">
+                                </div>
+                                <div class="news-content">
+                                    <h3 class="news-title"><a href="#">Godzilla: King Of The Monsters Adds O’Shea Jackson Jr</a></h3>
+                                    <span class="news-time">27 Mar 2017</span>
+                                    <p class="news-excerpt">Africa's burgeoning animation scene got a boost this week with the announcement of an ambitious new partnership that will pair rising talents from across the continent ...</p>
+                                </div>
+                            </div>
+                            <div class="news-item clearfix">
+                                <div class="news-image">
+                                    <img src="img/bloglist-it1.jpg" alt="news image">
+                                </div>
+                                <div class="news-content">
+                                    <h3 class="news-title"><a href="#">Godzilla: King Of The Monsters Adds O’Shea Jackson Jr</a></h3>
+                                    <span class="news-time">27 Mar 2017</span>
+                                    <p class="news-excerpt">Africa's burgeoning animation scene got a boost this week with the announcement of an ambitious new partnership that will pair rising talents from across the continent ...</p>
+                                </div>
+                            </div>
+                            <div class="news-item clearfix">
+                                <div class="news-image">
+                                    <img src="img/bloglist-it1.jpg" alt="news image">
+                                </div>
+                                <div class="news-content">
+                                    <h3 class="news-title"><a href="#">Godzilla: King Of The Monsters Adds O’Shea Jackson Jr</a></h3>
+                                    <span class="news-time">27 Mar 2017</span>
+                                    <p class="news-excerpt">Africa's burgeoning animation scene got a boost this week with the announcement of an ambitious new partnership that will pair rising talents from across the continent ...</p>
+                                </div>
+                            </div>
+                            <div class="news-item clearfix">
+                                <div class="news-image">
+                                    <img src="img/bloglist-it1.jpg" alt="news image">
+                                </div>
+                                <div class="news-content">
+                                    <h3 class="news-title"><a href="#">Godzilla: King Of The Monsters Adds O’Shea Jackson Jr</a></h3>
+                                    <span class="news-time">27 Mar 2017</span>
+                                    <p class="news-excerpt">Africa's burgeoning animation scene got a boost this week with the announcement of an ambitious new partnership that will pair rising talents from across the continent ...</p>
+                                </div>
+                            </div>
+                        </div>
+                        <ul class="pagination">
+                            <li>
+                                <a class="pagination-btn" href="#"><i class="fas fa-chevron-left"></i></a>
+                            </li>
+                            <li>
+                                <a class="pagination-btn active" href="#">1</a>
+                            </li>
+                            <li>
+                                <a class="pagination-btn" href="#">2</a>
+                            </li>
+                            <li>
+                                <a class="pagination-btn" href="#">3</a>
+                            </li>
+                            <li>
+                                <a class="pagination-btn" href="#">...</a>
+                            </li>
+                            <li>
+                                <a class="pagination-btn" href="#">10</a>
+                            </li>
+                            <li>
+                                <a class="pagination-btn" href="#"><i class="fas fa-chevron-right"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sidebar">
+                        <div class="sidebar-search">
+                            <h3 class="sidebar-title">Search</h3>
+                            <form class="sidebar-searchform">
+                                <div class="search-group">
+                                    <label class="search-label">Keywords:</label>
+                                    <input name="search-key" class="search-input" type="text" placeholder="Enter keywords ...">
+                                </div>
+                                <div class="search-group">
+                                    <label class="search-label">Category:</label>
+                                    <select multiple class="search-select">
+                                        <option></option>
+                                        <option value="0">Awards</option>
+                                        <option value="0">Awards</option>
+                                        <option value="0">Awards</option>
+                                        <option value="0">Awards</option>
+                                        <option value="0">Awards</option>
+                                    </select>
+                                </div>
+                                <button class="search-button" type="submit">SEARCH</button>
+                            </form>
+                        </div>
+                        <div class="sidebar-list">
+                            <h3 class="sidebar-title">Categories</h3>
+                            <ul class="news-category">
+                                <li>
+                                    <a href="#">Awards<span class="news-count">(10)</span></a>
+                                </li>
+                                <li>
+                                    <a href="#">Celebrities<span class="news-count">(10)</span></a>
+                                </li>
+                                <li>
+                                    <a href="#">Trailers<span class="news-count">(10)</span></a>
+                                </li>
+                                <li>
+                                    <a href="#">HBO<span class="news-count">(10)</span></a>
+                                </li>
+                                <li>
+                                    <a href="#">Awards<span class="news-count">(10)</span></a>
+                                </li>
+                                <li>
+                                    <a href="#">Awards<span class="news-count">(10)</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="sidebar-list">
+                            <h3 class="sidebar-title">Top news in month</h3>
+                            <div class="top-news-item">
+                                <span class="top-news-number">01</span>
+                                <h4 class="top-news-title"><a href="#">Korea Box Office: Beauty and the Beast Wins Fourth</a></h4>
+                            </div>
+                            <div class="top-news-item">
+                                <span class="top-news-number">02</span>
+                                <h4 class="top-news-title"><a href="#">Korea Box Office: Beauty and the Beast Wins Fourth</a></h4>
+                            </div>
+                            <div class="top-news-item">
+                                <span class="top-news-number">03</span>
+                                <h4 class="top-news-title"><a href="#">Korea Box Office: Beauty and the Beast Wins Fourth</a></h4>
+                            </div>
+                            <div class="top-news-item">
+                                <span class="top-news-number">04</span>
+                                <h4 class="top-news-title"><a href="#">Korea Box Office: Beauty and the Beast Wins Fourth</a></h4>
+                            </div>
+                            <div class="top-news-item">
+                                <span class="top-news-number">05</span>
+                                <h4 class="top-news-title"><a href="#">Korea Box Office: Beauty and the Beast Wins Fourth</a></h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End  Viet content o day-->
+
+        <div class="footer">
+            <div class="container">
+                <div class="top-footer clearfix">
+                    <div class="site-col footer-col">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+                        </div>
+                        <div class="site-info">
+                            <p class="site-address">77th Ave NW, Stanwood, New York, NY 10507</p>
+                            <p class="site-phone">+84 123-456-789</p>
+                            <p class="site-email">localhost@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="link-col footer-col">
+                        <h2 class="footer-col-title">Links</h2>
+                        <ul>
+                            <li><a href="#" class="footer-link">Movies</a></li>
+                            <li><a href="#" class="footer-link">Celebrities</a></li>
+                            <li><a href="#" class="footer-link">Movie Genres</a></li>
+                            <li><a href="#" class="footer-link">Reviews</a></li>
+                            <li><a href="#" class="footer-link">News</a></li>
+                        </ul>
+                    </div>
+                    <div class="legal-col footer-col">
+                        <h2 class="footer-col-title">Legals</h2>
+                        <ul>
+                            <li><a href="#" class="footer-link">Privacy</a></li>
+                            <li><a href="#" class="footer-link">Cookie</a></li>
+                            <li><a href="#" class="footer-link">Security</a></li>
+                        </ul>
+                    </div>
+                    <div class="account-col footer-col">
+                        <h2 class="footer-col-title">Accounts</h2>
+                        <ul>
+                            <li><a href="#" class="footer-link">Login</a></li>
+                            <li><a href="#" class="footer-link">Sign Up</a></li>
+                            <li><a href="#" class="footer-link">Profile</a></li>
+                        </ul>
+                    </div>
+                    <div class="newsletter-col footer-col">
+                        <h2 class="footer-col-title">Newsletter</h2>
+                        <p class="newsletter-description">Subscribe to our newsletter system now to get latest news from us.</p>
+                        <input class="newsletter-input" type="email" placeholder="Enter your email ...">
+                        <a class="newsletter-submit" href="#">Subcribe Now</a>
+                    </div>
+                </div>
+                <div class="copyright-footer clearfix">
+                    <p class="copyright">&copy; 2020 FiRi - All Right Reserved.</p>
+                    <p class="to-top">
+                        <a href="#" class="to-top-link">Back to Top!</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-overlay">
+        <div class="login-modal">
+            <h2 class="modal-title">Login</h2>
+            <form class="modal-form">
+                <div class="form-group">
+                    <label class="form-label" for="login-email">Email:</label>
+                    <input class="form-input" id="login-email" type="email" placeholder="Enter Your Email ...">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="login-password">Password:</label>
+                    <input class="form-input" id="login-password" type="password" placeholder="Enter Your Password ...">
+                </div>
+                <div class="form-group clearfix">
+                    <label class="form-check-label" for="remember-me"><input id="remember-me" type="checkbox" class="form-check">Remeber me!</label>
+                    <p class="form-forgot">
+                        <a href="#" class="form-link">Forgot your password?</a>
+                    </p>
+                </div>
+                <div class="form-button-group">
+                    <button class="form-button" type="submit">Login</button>
+                </div>
+            </form>
+        </div>
+        <div class="signup-modal">
+            <h2 class="modal-title">Sign up</h2>
+            <form class="modal-form">
+                <div class="form-group">
+                    <label class="form-label" for="signup-name">Your Name:</label>
+                    <input class="form-input" id="signup-name" type="text" placeholder="Enter Your Name ...">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="signup-email">Email:</label>
+                    <input class="form-input" id="signup-email" type="email" placeholder="Enter Your Email ...">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="signup-password">Password:</label>
+                    <input class="form-input" id="signup-password" type="password" placeholder="Enter Your Password ...">
+                </div>
+                <div class="form-group">
+                    <label class="form-label" for="re-password">Confirm Password:</label>
+                    <input class="form-input" id="re-password" type="password" placeholder="Enter Your Password ...">
+                </div>
+                <div class="form-button-group">
+                    <button class="form-button" type="submit">Sign Up</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="preload">
+        <div class="loading">
+            <img class="loading-image" src="img/loading.gif" alt="preload">
+        </div>
+    </div>
+
+    <script src="lib/jquery/jquery-1.11.0.min.js"></script>
+    <script src="lib/jquery/jquery-migrate-1.2.1.min.js"></script>
+    <script src="lib/select2/js/select2.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/custom-select2.js"></script>
+</body>
+
+</html>
